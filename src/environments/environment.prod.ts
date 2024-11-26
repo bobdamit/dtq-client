@@ -1,5 +1,5 @@
 export const environment = {
 	production: true,
-	apiUrl: 'https://your-production-api-url' // Placeholder for production API URL
+	apiUrl: 'https://api.dailytrumpquote.com'
  };
  
