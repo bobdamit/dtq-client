@@ -10,13 +10,10 @@ import { CommonModule } from '@angular/common';
   styleUrl: './turdlet.component.scss'
 })
 export class TurdletComponent {
-  message: any;
 
   constructor(private apiService: ApiService) {}
 
   ngOnInit(): void {
-    this.apiService.getHello().subscribe((response) => {
-      this.message = response;
-    });
+
   }
 }
