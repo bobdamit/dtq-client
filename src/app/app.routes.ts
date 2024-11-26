@@ -3,7 +3,7 @@ import { TurdletComponent } from './components/turdlet/turdlet.component';
 
 export const routes: Routes = [
     { 
-        path: "/",
+        path: "",
         component: TurdletComponent
     }
 ];
