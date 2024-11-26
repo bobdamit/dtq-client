@@ -26,3 +26,4 @@ xcuserdata/
 !.vscode/extensions.json
 
 angular-compiler.*
+.angular/*
